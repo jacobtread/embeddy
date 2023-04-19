@@ -8,6 +8,11 @@
 
 Files are loaded relative to the Cargo.toml file
 
+```toml
+[dependencies]
+embeddy = "0.1"
+```
+
 ## Example Usage
 
 ```rust
