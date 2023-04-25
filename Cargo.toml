@@ -1,0 +1,12 @@
+[package]
+name = "embeddy"
+version = "0.1.0"
+edition = "2021"
+description = "Resource embedding macro"
+keywords = ["resources","embedding"]
+readme = "README.md"
+license = "MIT"
+authors = ["Jacobtread <jacobtread@gmail.com>"]
+repository = "https://github.com/jacobtread/embeddy"
+
+[dependencies]
