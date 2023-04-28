@@ -12,8 +12,12 @@ readme.workspace = true
 
 [dependencies]
 quote = "1"
-syn = "2"
 walkdir = "2"
+
+[dependencies.syn]
+version = "2"
+default_features = false
+features = ["proc-macro", "parsing", "derive"]
 
 [lib]
 proc-macro = true

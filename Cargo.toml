@@ -22,4 +22,4 @@ readme.workspace = true
 
 
 [dependencies]
-embeddy-derive = { version = "0.1.0", path = "./embeddy-derive" }
+embeddy-derive = { version = "0.1", path = "./embeddy-derive" }

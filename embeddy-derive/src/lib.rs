@@ -61,7 +61,7 @@ pub fn derive_embeddy(input: TokenStream) -> TokenStream {
 
         includes.push(quote! {
             #rel_path => include_bytes!(#full_path),
-        })
+        });
     }
 
     quote! {
