@@ -1,5 +1,9 @@
 # Embeddy 
 
+![License](https://img.shields.io/github/license/jacobtread/embeddy?style=for-the-badge)
+![Cargo Version](https://img.shields.io/crates/v/embeddy?style=for-the-badge)
+![Cargo Downloads](https://img.shields.io/crates/d/embeddy?style=for-the-badge)
+
 > Minimal opinionated resource embedding 
 
 Files are loaded relative to the Cargo.toml file
