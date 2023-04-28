@@ -1,12 +1,25 @@
-[package]
-name = "embeddy"
-version = "0.1.0"
+[workspace]
+members = [".", "embeddy-derive"]
+
+[workspace.package]
 edition = "2021"
-description = "Resource embedding macro"
-keywords = ["resources","embedding"]
-readme = "README.md"
 license = "MIT"
 authors = ["Jacobtread <jacobtread@gmail.com>"]
 repository = "https://github.com/jacobtread/embeddy"
+readme = "README.md"
+
+[package]
+name = "embeddy"
+version = "0.1.0"
+description = "Resource embedding"
+keywords = ["resources", "embedding"]
+
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+readme.workspace = true
+
 
 [dependencies]
+embeddy-derive = { version = "0.1.0", path = "./embeddy-derive" }
