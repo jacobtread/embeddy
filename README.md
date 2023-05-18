@@ -8,9 +8,16 @@
 
 Files are loaded relative to the Cargo.toml file
 
+
 ```toml
 [dependencies]
 embeddy = "0.1"
+```
+
+or 
+
+```shell
+cargo add embeddy
 ```
 
 ## Example Usage
